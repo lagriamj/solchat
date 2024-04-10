@@ -41,9 +41,13 @@ a:active, a:hover {
   outline: 0;
 }
 
+
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
+
+
 
 b, strong {
   font-weight: bold;
@@ -53,6 +57,19 @@ b, strong {
   background: linear-gradient(to bottom right, #10B981, #6366F1); /* Gradient colors */
   width: 4px; /* Adjust line width as needed */
 }
+
+.vertical-timeline-element--work::after {
+  margin-top: 120px;
+}
+
+.vertical-timeline-element-icon::before{
+  background-color: black;
+  display: block;
+  margin-bottom: 120px;
+  
+}
+
+
 
 dfn {
   font-style: italic;
